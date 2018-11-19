@@ -1,0 +1,9 @@
+@import "./reset";
+@import "./variables";
+@import "./mixins";
+@import "./typography";
+
+body {
+  @include fontSans();
+  background-image: url("../../assets/img/lifestyle-1.jpg");
+}

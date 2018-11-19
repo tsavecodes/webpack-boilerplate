@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Akzidenz Grotesk Light";
+  src: url("../fonts/AkzidenzGrotesk-Light/Akzidenz Grotesk Light.eot");
+  src: url("../fonts/AkzidenzGrotesk-Light/Akzidenz Grotesk Light.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk Ext";
+  src: url("../fonts/AkzidenzGrotesk-Ext/AkzidenzGroteskBQ-Ext.eot");
+  src: url("../fonts/AkzidenzGrotesk-Ext/AkzidenzGroteskBQ-Ext.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("../fonts/ChronicleDisplay-Regular/ChronicleDisplayRegular.eot");
+  src: url("../fonts/ChronicleDisplay-Regular/ChronicleDisplayRegular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display Roman";
+  src: url("../fonts/ChronicleDisplay-Roman/ChronicleDisplay-Roman.eot");
+  src: url("../fonts/ChronicleDisplay-Roman/ChronicleDisplay-Roman.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display Semi";
+  src: url("../fonts/ChronicleDisplay-Semi/ChronicleDisplay-Semi.eot");
+  src: url("../fonts/ChronicleDisplay-Semi/ChronicleDisplay-Semi.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin fontSerif() {
+  font-family: "Chronicle Display", sans-serif;
+}
+
+@mixin fontSans() {
+  font-family: "Akzidenz Grotesk Ext", sans-serif;
+}
